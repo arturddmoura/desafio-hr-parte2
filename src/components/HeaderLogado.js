@@ -10,9 +10,7 @@ function HeaderLogado() {
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <img src={Img} width="7%" border="10px" alt="Logo" />
-                    <Navbar.Brand href="/desafio-hr-parte2">
-                        Loja de Jogos
-                    </Navbar.Brand>
+                    <Navbar.Brand href="/">Loja de Jogos</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#playstation">Playstation</Nav.Link>
                         <Nav.Link href="#xbox">Xbox</Nav.Link>
@@ -21,12 +19,10 @@ function HeaderLogado() {
                     </Nav>
                     <Nav>
                         <Nav.Item className="ml-auto">
-                            <Nav.Link href="/desafio-hr-parte2/logado">
-                                Olá, {nome}
-                            </Nav.Link>
+                            <Nav.Link href="/logado">Olá, {nome}</Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="ml-auto">
-                            <Nav.Link href="/desafio-hr-parte2">Sair</Nav.Link>
+                            <Nav.Link href="/">Sair</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Container>

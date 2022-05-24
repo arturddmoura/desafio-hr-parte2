@@ -9,13 +9,10 @@ function Rota() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/desafio-hr-parte2" exact element={<Home />} />
-                <Route
-                    path="/desafio-hr-parte2/cadastro"
-                    element={<Cadastro />}
-                />
-                <Route path="/desafio-hr-parte2/login" element={<Login />} />
-                <Route path="/desafio-hr-parte2/logado" element={<Logado />} />
+                <Route path="/" exact element={<Home />} />
+                <Route path="/cadastro" element={<Cadastro />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/logado" element={<Logado />} />
             </Routes>
         </BrowserRouter>
     );
