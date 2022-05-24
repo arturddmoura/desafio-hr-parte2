@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/desafio-hr-parte2/static/css/main.e7720ab7.css",
+    "main.js": "/desafio-hr-parte2/static/js/main.a0a438ff.js",
+    "static/media/gw.jpg": "/desafio-hr-parte2/static/media/gw.70f5c02e3ab8c0bc6ed4.jpg",
+    "static/media/horizon.jpg": "/desafio-hr-parte2/static/media/horizon.a95d47a88dcc94d77d06.jpg",
+    "static/media/hades.jpg": "/desafio-hr-parte2/static/media/hades.8dc8c967ae742971973c.jpg",
+    "static/media/returnal.jpg": "/desafio-hr-parte2/static/media/returnal.70bfb701882e6e33ac1d.jpg",
+    "static/media/ds.jpg": "/desafio-hr-parte2/static/media/ds.d3aa9f31fb171827c788.jpg",
+    "static/media/spider-man.jpg": "/desafio-hr-parte2/static/media/spider-man.06c3ce65318db9936ea1.jpg",
+    "index.html": "/desafio-hr-parte2/index.html",
+    "main.e7720ab7.css.map": "/desafio-hr-parte2/static/css/main.e7720ab7.css.map",
+    "main.a0a438ff.js.map": "/desafio-hr-parte2/static/js/main.a0a438ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7720ab7.css",
+    "static/js/main.a0a438ff.js"
+  ]
+}
