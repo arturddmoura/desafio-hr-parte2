@@ -10,9 +10,11 @@ function Login() {
     const [loginUser, setloginUser] = useState("");
     const [loginPassword, setloginPassword] = useState("");
 
-    var user = JSON.parse(localStorage.getItem("users"));
-    var login = user.email;
-    var senha = user.senha;
+    if (localStorage.getItem("users") !== null) {
+        var user = JSON.parse(localStorage.getItem("users"));
+        var login = user.email;
+        var senha = user.senha;
+    }
 
     const [sucesso, setSucesso] = useState();
 
