@@ -1,6 +1,7 @@
 import Cards from "./Card";
 import Register from "./Register";
 import HeaderLogado from "./HeaderLogado";
+import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Logado() {
@@ -9,6 +10,7 @@ function Logado() {
             <HeaderLogado />
             <Register />
             <Cards />
+            <Footer />
         </div>
     );
 }

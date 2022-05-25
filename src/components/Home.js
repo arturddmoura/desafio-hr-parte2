@@ -1,6 +1,8 @@
 import Cards from "./Card";
 import Register from "./Register";
 import Header from "./Header";
+import Footer from "./Footer";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
@@ -9,6 +11,7 @@ function Home() {
             <Header />
             <Register />
             <Cards />
+            <Footer />
         </div>
     );
 }
